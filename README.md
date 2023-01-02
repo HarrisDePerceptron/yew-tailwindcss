@@ -7,11 +7,20 @@ and the yew rust wasm frontend framework
 
 ### Getting started
 
+First get rust on the system then:
+
 ```
-npm install
-npm start
+rustup target add wasm32-unknown-unknown
+cargo install trunk
+
 ```
 
+```
+npm install
+npm start -- --port 8080
+```
+
+now navigate to `http://localhost:8080`
 ### Deploying
 
 ```

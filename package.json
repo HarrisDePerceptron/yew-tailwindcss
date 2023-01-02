@@ -6,7 +6,7 @@
   },
   "scripts": {
     "preinstall": "cargo build",
-    "start": "trunk serve --port 8003",
-    "serve": "trunk serve --port 8003 --release"
+    "start": "trunk serve ",
+    "serve": "trunk serve --release"
   }
 }

@@ -1,0 +1,14 @@
+[build]
+target = "index.html"
+dist = "dist"
+
+[[hooks]]
+stage = "build"
+command = "sh"
+command_arguments = ["-c", "echo 'building new tailwind....' && npx tailwindcss -i tailwind.css -c tailwind.config.js -o $TRUNK_STAGING_DIR/tailwind.css --minify"]
+
+
+[watch]
+
+ignore = ["node_modules"]
+

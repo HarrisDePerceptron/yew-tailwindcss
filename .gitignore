@@ -2,3 +2,4 @@
 tailwind.css
 node_modules/
 dist/**/.*
+target/**/.*
